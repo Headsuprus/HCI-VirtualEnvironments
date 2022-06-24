@@ -1,3 +1,3 @@
 # HCI
 Human Computer Interaction Technologies
-A repository on the Interaction Technologies workshop for HCI
+A repository on the Virtual Enviornments workshop for HCI
