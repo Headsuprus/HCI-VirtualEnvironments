@@ -15,17 +15,18 @@
           <img id="grass" src="images/grass.jpg" />
       </a-assets>
       <a-box id="myBox" 
-        position="-1 1 -3" 
+        position="-2 1 -3" 
         rotation="0 45 0" 
         width="3" 
         height="1" 
-        depth="1" 
-        material="src: #wood"
+        depth="1"
+        material="src:#wood"
+        color="#05504D"
         shadow 
         animation="property: rotation; 
-                   to: 90 360 180; 
-                   dur: 2000; 
-                   easing: linear; 
+                   to: -360 0 0; 
+                   dur: 3000; 
+                   easing: easeInOutElastic; 
                    loop: true" >
       </a-box>
       <a-box id="myOtherBox" 
@@ -34,7 +35,13 @@
         width="3" 
         height="1" 
         depth="1" 
-        material="src: #wood2"
+        material="src:#wood2"
+        color="#57AC94"
+        animation=";property: rotation; 
+                   to: -360 0 0; 
+                   dur: 3000; 
+                   easing: easeInOutElastic; 
+                   loop: true"     
         shadow>  
       </a-box>
       <a-plane id="ground"
@@ -42,8 +49,8 @@
         rotation="-90 0 0" 
         width="100" 
         height="100" 
-        color="#7BC8A4" 
-        material="src: #grass; repeat: 10 10"
+        material="src:#grass"
+        color="#564A2B" 
         shadow>
       </a-plane> 
     </a-scene>
